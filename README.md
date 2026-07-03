@@ -25,21 +25,22 @@ reports and a pandas DataFrame API.
 | `turbulencerealmtracker_3.2.0_amd64.deb` | Linux (Debian/Ubuntu) | Debian package with disclaimer, menu entry, uninstaller |
 | `TurbulenceRealmTracker-3.2.0-setup.exe` | Windows | Inno Setup installer with disclaimer, shortcuts, uninstaller |
 
-### Turbulence Realm SINDy v2.2.0
+### Turbulence Realm SINDy v2.2.1
 
 Video-based fluid-flow analysis with Sparse Identification of Nonlinear Dynamics.
 
-v2.2 reworks the ML models (PINN trains on multiple frames, Autoencoder-SINDy
-learns latent coefficients jointly, FNO gains nonlinearity, ConvLSTM unrolled
-over time, GAN outputs full flow snapshots, DeepONet trains across all frame
-pairs), adds async background training, and enforces divergence-free via FFT
-Helmholtz projection.
+v2.2.1 adds six SINDy method variants (Classical, SINDy-PI, PDE-FIND, WSINDy,
+E-SINDy, SINDYc) with a Method dropdown and dynamic parameter controls.
+Cross-validation and comparison are now crash-resistant. Windows builds now
+bundle CPU-only PyTorch, torchvision, ONNX, and ONNX Runtime so ML models
+work out of the box. Fixed missing libraries (sympy, scipy submodules),
+animated heatmap display, title bar icon, and application icon.
 
 | File | Platform | Description |
 |------|----------|-------------|
-| `TurbulenceRealmSINDy-2.2.0-Linux-Installer.run` | Linux (any) | Self-extracting installer with disclaimer, desktop integration, uninstaller |
-| `TurbulenceRealmSINDy-2.2.0-amd64.deb` | Linux (Debian/Ubuntu) | Debian package with disclaimer, menu entry, uninstaller |
-| `TurbulenceRealmSINDy-2.2.0-Setup.exe` | Windows | Inno Setup installer with disclaimer, shortcuts, uninstaller |
+| `TurbulenceRealmSINDy-2.2.1-Linux-Installer.run` | Linux (any) | Self-extracting installer with disclaimer, desktop integration, uninstaller |
+| `TurbulenceRealmSINDy-2.2.1-amd64.deb` | Linux (Debian/Ubuntu) | Debian package with disclaimer, menu entry, uninstaller |
+| `TurbulenceRealmSINDy-2.2.1-Setup.exe` | Windows | Inno Setup installer with disclaimer, shortcuts, icon, uninstaller (includes PyTorch) |
 
 ## Disclaimer
 
