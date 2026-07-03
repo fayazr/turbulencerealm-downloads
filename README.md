@@ -6,22 +6,24 @@ Website: https://www.turbulencerealm.com
 
 ## Latest Releases
 
-### Turbulence Realm-Tracker v3.1.0
+### Turbulence Realm-Tracker v3.2.0
 
 Video-based bubble velocimetry and fluid-dynamics analysis console.
 
-v3.1 adds automatic multi-object tracking (MOT) of every bubble, watershed
-segmentation with bubble-size distributions, fluid-physics outputs
-(Reynolds/Weber/Eötvös, drag, terminal velocity), Eulerian flow fields,
-coalescence/breakup event detection, live camera capture, lens-distortion
-correction, uncertainty propagation, one-click PDF reports and a pandas
-DataFrame API.
+v3.2 removes the 3D trajectory visualization and GPU Info/acceleration
+features from the UI (heatmaps and time-lapses remain), and bumps the
+installers. Built on v3.1's automatic multi-object tracking (MOT),
+watershed segmentation with bubble-size distributions, fluid-physics
+outputs (Reynolds/Weber/Eötvös, drag, terminal velocity), Eulerian flow
+fields, coalescence/breakup event detection, live camera capture,
+lens-distortion correction, uncertainty propagation, one-click PDF
+reports and a pandas DataFrame API.
 
 | File | Platform | Description |
 |------|----------|-------------|
-| `TurbulenceRealmTracker-3.1.0-linux-installer.run` | Linux (any) | Self-extracting installer with disclaimer, desktop integration, uninstaller |
-| `turbulencerealmtracker_3.1.0_amd64.deb` | Linux (Debian/Ubuntu) | Debian package with disclaimer, menu entry, uninstaller |
-| `TurbulenceRealmTracker-3.0.0-setup.exe` | Windows | Inno Setup installer with disclaimer, shortcuts, uninstaller |
+| `TurbulenceRealmTracker-3.2.0-linux-installer.run` | Linux (any) | Self-extracting installer with disclaimer, desktop integration, uninstaller |
+| `turbulencerealmtracker_3.2.0_amd64.deb` | Linux (Debian/Ubuntu) | Debian package with disclaimer, menu entry, uninstaller |
+| `TurbulenceRealmTracker-3.2.0-setup.exe` | Windows | Inno Setup installer with disclaimer, shortcuts, uninstaller |
 
 ### Turbulence Realm SINDy v2.2.0
 
