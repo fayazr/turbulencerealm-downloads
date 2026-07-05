@@ -42,6 +42,22 @@ animated heatmap display, title bar icon, and application icon.
 | `TurbulenceRealmSINDy-2.2.1-amd64.deb` | Linux (Debian/Ubuntu) | Debian package with disclaimer, menu entry, uninstaller |
 | `TurbulenceRealmSINDy-2.2.1-Setup.exe` | Windows | Inno Setup installer with disclaimer, shortcuts, icon, uninstaller (includes PyTorch) |
 
+## Screenshots and Demos
+
+### Turbulence Realm SINDy v2.2.1
+
+![SINDy workflow overview](https://raw.githubusercontent.com/fayazr/turbulencerealm-downloads/main/assets/TR-SINDY-flow.png)
+
+![SINDy spatial-error analysis](https://raw.githubusercontent.com/fayazr/turbulencerealm-downloads/main/assets/TR-SINDY-SPATIAL-ERROR.png)
+
+![SINDy demo](https://raw.githubusercontent.com/fayazr/turbulencerealm-downloads/main/assets/TR-SINDy.gif)
+
+### Turbulence Realm-Tracker v3.2.0
+
+![Tracker demo](https://raw.githubusercontent.com/fayazr/turbulencerealm-downloads/main/assets/tr-tracker.gif)
+
+![Tracker analysis view](https://raw.githubusercontent.com/fayazr/turbulencerealm-downloads/main/assets/tr-track.png)
+
 ## Disclaimer
 
 Each installer includes a no-liability disclaimer that must be accepted
