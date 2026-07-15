@@ -64,7 +64,4 @@ Each installer includes a no-liability disclaimer that must be accepted
 before installation. The software is provided "AS IS", without warranty of
 any kind.
 
-## Source Code
 
-- Tracker: https://github.com/fayazr/TR-TRACK
-- SINDy: https://github.com/fayazr/TR-SINDY
